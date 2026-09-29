@@ -6,7 +6,7 @@ class Llmd < Formula
   sha256 "435133e7edb2df32f22a5d723fe37525f3d964c5344735d7b1be15614f4b5cec"
 
   depends_on arch: :arm64
-  depends_on macos: :ventura
+  depends_on macos: :tahoe
 
   def install
     libexec.install "llmd", "llmd.runfiles"
